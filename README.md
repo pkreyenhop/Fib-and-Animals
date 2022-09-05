@@ -12,7 +12,7 @@ c.       Build the empty project from IDE
 
 d.       Build the empty project from command line
 
-2.       Create function to calculate Fibonacci sequence:
+2.       Create function to calculate Fibonacci sequence: 
 
 fib(0) = 0
 
