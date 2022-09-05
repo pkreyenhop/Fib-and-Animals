@@ -33,8 +33,8 @@ public class AppTest
     public void TestOtherNum()
     {
         App test = new App();
-        int other = test.fibonacci(1024);
-        System.out.println(other);
-        //assertEquals( 2, other);
+        int other = test.fibonacci(3);
+        //System.out.println(other);
+        assertEquals( 2, other);
     }
 }
