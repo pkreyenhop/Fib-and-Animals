@@ -17,7 +17,7 @@ public class AppTest
     public void TestZero()
     {
         App testZero = new App();
-        int zero = testZero.calculateFib(0);
+        int zero = testZero.fibonacci(0);
         assertEquals(0, zero);
     }
 
@@ -25,7 +25,7 @@ public class AppTest
     public void TestOne()
     {
         App testOne = new App();
-        int one = testOne.calculateFib(1);
+        int one = testOne.fibonacci(1);
         assertEquals( 1, one);
     }
 
@@ -33,7 +33,7 @@ public class AppTest
     public void TestOtherNum()
     {
         App test = new App();
-        int other = test.calculateFib(1024);
+        int other = test.fibonacci(1024);
         System.out.println(other);
         //assertEquals( 2, other);
     }

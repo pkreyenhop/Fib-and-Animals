@@ -7,7 +7,7 @@ package demo;
 public class App 
 {
 
-    public Integer calculateFib(int num){
+    public Integer fibonacci(int num){
         //fib(0) = 0 return 0
         if(num ==0){
             return 0;
@@ -18,7 +18,7 @@ public class App
         }
         else{
             // fib(n) = fib(n-1)+fib(n-2)
-            return  calculateFib(num-1) + calculateFib(num-2);
+            return  fibonacci(num-1) + fibonacci(num-2);
         }
         
         
